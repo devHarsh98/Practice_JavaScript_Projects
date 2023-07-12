@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+.container {
+    background-color: coral;
+}
+
+.container h1 {
+    margin: 18px;
+}
+
+.game input {
+    margin: 18px;
+    font-size: 25px;
+    padding: 15px;
+    border: none;
+}
+
+.game .btn {
+    border: none;
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 12px;
+    background-color: cornsilk;
+}
+
+.game .output {
+    margin: 18px;
+    font-size: 25px;
+}
+
+.game .guess {
+    margin: 15px;
+    font-size: 18px;
+    text-align: center;
+}
